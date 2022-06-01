@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.todolis{
+    display: flex;
+    flex-direction: column;
+}
+.userID,
+.Id,
+.Completed{
+    display: inline-block;
+}
+.ex1{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    margin: 5px auto;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn-completed,
+.btn-not-completed,
+.btn-all{
+    margin: 5px;
+}
